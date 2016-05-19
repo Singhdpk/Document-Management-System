@@ -43,12 +43,12 @@ public partial class DocumentRecords : System.Web.UI.Page
     protected void btnLogout_Click(object sender, EventArgs e)
     {
         Session["LOGIN"] = 0;
-        Response.Redirect("UsersLogin.aspx");
+        Response.Redirect("../UsersLogin.aspx");
     }
     protected void btnNavLogout_Click(object sender, EventArgs e)
     {
         Session["LOGIN"] = 0;
-        Response.Redirect("UsersLogin.aspx");
+        Response.Redirect("../UsersLogin.aspx");
     }
     protected void btnview_Click(object sender, EventArgs e)
     {

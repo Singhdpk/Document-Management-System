@@ -85,12 +85,12 @@ public partial class Admin_CategoryWise : System.Web.UI.Page
     protected void btnLogout_Click(object sender, EventArgs e)
     {
         Session["LOGIN"] = 0;
-        Response.Redirect("UsersLogin.aspx");
+        Response.Redirect("../UsersLogin.aspx");
     }
     protected void btnNavLogout_Click(object sender, EventArgs e)
     {
         Session["LOGIN"] = 0;
-        Response.Redirect("UsersLogin.aspx");
+        Response.Redirect("../UsersLogin.aspx");
     }
     protected void btnUpload_Click(object sender, EventArgs e)
     {
